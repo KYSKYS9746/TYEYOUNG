@@ -2,7 +2,7 @@
     outline: 1px solid tomato;
  }  */
 
-.Header {
+ .Header {
     position: fixed;
     top: 0;
     left: 0;
@@ -70,7 +70,7 @@
     font-size: 16px;
 }
 
-.Header .Gnb>ul>li .sub {
+.Header .Gnb>ul>li .Sub {
     position: absolute;
     top: 70px;
     left: 0;
@@ -81,9 +81,13 @@
     font-size: 15px;
 }
 
-.Header:hover .Gnb>ul>li .sub {
+
+
+.Header:hover .Gnb>ul>li .Sub {
     display: block;
 }
+
+
 
 
 .Header .Gnb::before {
@@ -109,11 +113,11 @@
     color: #555555;
 }
 
+
 .MainVisual .MainSlide .itm {
     position: relative;
     height: 100vh;
     min-height: 600px; 
-
 }
 /* .MainVisual .MainSlide .itm::before {
     content: "";
@@ -230,6 +234,8 @@
     object-fit: cover;
 }
 
+
+
 .bar {
     position: relative;
     max-width: 1000px;
@@ -255,14 +261,24 @@
 
 .caption {
     position: absolute;
-    bottom: 100px;
-    right: 100px;
-    width: 400px;
+    bottom: 120px;
+    right: 120px;
+    width: 515px;
     height: 300px;
     background: rgba(0,0,0,0.4);
     color: #fff;
 
     padding: 80px;
+}
+
+.caption  strong {
+    font-size: 24px;
+    
+}
+
+.caption p {
+    margin: 18px 0 0 0;
+    line-height: 24px;
 }
 
 .MainBusinEss {
@@ -295,6 +311,8 @@ background: #f3f3f3;
     margin: 0 auto;
     
 }
+
+
 
 .MainContent .MainContent_slide .img_box {
     position: relative;
@@ -416,5 +434,158 @@ background: #f3f3f3;
     padding: 12px 40px;
     align-items: center;
     color: #a6a6a6;
+}
+
+.MainSns {
+    background: #f3f3f3;
+}
+
+.MainSns .Sns_content {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.MainSns .Sns_content>* {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+
+.MainSns .Sns_content .Sns_Text {
+    display: flex;
+    background: #b4a1aa;
+}
+
+.MainSns .Sns_content .Sns_Text i {
+    height: 46px;
+    color: #fff;
+    line-height: 16px;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 15px 10px;
+}
+
+.MainSns .Sns_content .Sns_Text strong {
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.MainSns .Sns_content .Sns_Text .link {
+    text-align: right;
+}
+
+.MainSns .Sns_content .Sns_Text .link a {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    width: 40px;
+    left: 80px;
+    border: none;
+    box-sizing: border-box;
+    padding: 14px 0 14px 14px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.MainSns .Sns_content .Sns_Text .link a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #fff;
+}
+
+.MainSns .Sns_content .Sns_Text .link a::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 8px;
+    height: 1px;
+    background: #fff;
+    transform: rotate(45deg);
+    transform-origin: right;
+}
+
+.MainSns .Sns_content figure .img_box {
+    overflow: hidden;
+    max-height: 390px;
+    border-bottom: 1px solid #b4a1aa;
+    border-left: 1px solid #b4a1aa;
+    border-right: 1px solid #b4a1aa;
+}
+
+.MainSns .Sns_content figure img {
+    transition: 0.5s;
+}
+
+.MainSns .Sns_content figure:hover img {
+    transform: scale(1.1);
+}
+
+.MainSns .Sns_content figure:hover .Sns_Text {
+    background: #9e1c4e;
+}
+
+.MainSns .Sns_content figure:hover .img_box {
+    border-bottom: 1px solid #9e1c4e;
+    border-left: 1px solid #9e1c4e;
+    border-right: 1px solid #9e1c4e;
+}
+
+.Footer {
+    background:#828282;
+}
+
+.FooterAll {
+max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.FooterInfo {
+    color: #ebe8e9;
+border-bottom: 1px solid #aeaeae ;
+}
+
+.FooterInfo li{
+display: inline-block;
+padding: 0 0 20px 0;
+font-weight: 200;
+
+}
+
+.FooterInfo li:hover {
+    color: #9e1c4e;
+}
+.Footeradr {
+    padding: 20px 0 0 0;
+}
+
+.FooterAll .Ulmidle {
+    display: flex;
+    color: #d3d3d3;
+    line-height: 24px;
+    font-weight: 100;
+    font-size: 14px;
+    gap: 20px;
+}
+
+.FooterAll .Ulmidle02 {
+    display: flex;
+    color: #d3d3d3;
+    line-height: 24px;
+    font-weight: 100;
+    font-size: 14px;
+    gap: 20px;
+}
+
+.cype {
+    padding: 20px 0 0 0;
+    color: #ababab;
+    font-size: 12px;
 }
 
