@@ -37,7 +37,6 @@
 }
 
 .Header .Header_Wrap .Gnb {
-    margin: 0 0 0 auto;
     white-space: nowrap;
 }
 
@@ -110,15 +109,15 @@
 
 .Header .Gnb>ul>li a {
     display: block;
-    color: #555555;
+    color: #e8e8e8;
 }
-
 
 .MainVisual .MainSlide .itm {
     position: relative;
     height: 100vh;
     min-height: 600px; 
 }
+
 /* .MainVisual .MainSlide .itm::before {
     content: "";
     position: absolute;
